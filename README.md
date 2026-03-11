@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%2010-lightgrey)
 ![License](https://img.shields.io/badge/license-TBD-yellow)
 
-A computational tool for analyzing non-covalent weak interactions in solid materials based on charge density from first-principles calculations. (Currently a very preliminary test version, with calculation results already compared with literature and mainstream software)
+A computational tool for analyzing non-covalent weak interactions in solid materials based on charge density from first-principles calculations. (Currently a very preliminary test version, with calculation results already compared with literature )
 
 ---
 
@@ -34,9 +34,9 @@ A computational tool for analyzing non-covalent weak interactions in solid mater
 ### Citation
 When using corresponding methods for structure analysis, authors are recommended to cite the original literature where the methods were published:
 
-- **NCI**: E. R. Johnson, S. Keinan, P. Mori-Sánchez, J. Contreras-García, A. J. Cohen, W. Yang, *J. Am. Chem. Soc.* 2010, **132**, 6498. DOI: [10.1021/ja100936w](https://doi.org/10.1021/ja100936w)
+- **NCI**: E. R. Johnson, S. Keinan, P. Mori-Sánchez, J. Contreras-García, A. J. Cohen, W. Yang, *J. Am. Chem. Soc.* 2010, **132**, 6498-6506. DOI: [10.1021/ja100936w](https://doi.org/10.1021/ja100936w)
 
-- **DORI**: P. de Silva, C. Corminboeuf, *J. Chem. Theory Comput.* 2014, **10**, 3745. DOI: [10.1021/ct500490e](https://doi.org/10.1021/ct500490e)
+- **DORI**: P. de Silva, C. Corminboeuf, *J. Chem. Theory Comput.* 2014, **10**, 3745. DOI: [10.1021/ct500490b](https://doi.org/10.1021/ct500490b)
 
 - **IRI**: T. Lu, Q. Chen, *Chemistry-Methods* 2021, **1**, 231. DOI: [10.1002/cmtd.202100007](https://doi.org/10.1002/cmtd.202100007)
 
@@ -62,19 +62,16 @@ Currently supports **all platforms that can install the MATLAB Runtime toolkit**
 
 ## 🚀 Usage Example (Using Windows 10 System)
 
-### Step 1: Install MATLAB Runtime
-Ensure that the MATLAB Runtime toolkit has been successfully installed (version must match the compilation environment, i.e., R2022a).
-
-### Step 2: Prepare Input Files
+### Step 1: Prepare Input Files
 The following files need to be prepared before running:
 - Program `code_4.exe`
 - Input file `input` (text format containing calculation parameters)
-- Charge density file (Note: `FilePath` in input should point to the charge density file path)
+- Charge density file
 
-### Step 3: Run the Program
+### Step 2: Run the Program
 Double-click `code_4.exe` to run. The program will display calculation progress in the command window.
 
-### Step 4: View Results
+### Step 3: View Results
 Calculation results are saved in the automatically generated `Results_Output` folder.
 
 ---
@@ -164,13 +161,14 @@ Results_Output/
 | `RDG_Scatter.png` | Generated scatter plot | Quickly view low-gradient peak distribution |
 
 
+# 中文版本说明书
 # code_4
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-2022a-orange)
 ![平台](https://img.shields.io/badge/platform-Windows%2010-lightgrey)
 ![许可证](https://img.shields.io/badge/license-待定-yellow)
 
-基于第一性原理计算得到的电荷密度分析固体材料中非共价弱相互作用的计算工具。（目前只是一个很初步的测试版本，计算结果已经和文献及主流软件进行过对比）
+基于第一性原理计算得到的电荷密度分析固体材料中非共价弱相互作用的计算工具。（目前只是一个很初步的测试版本，计算结果和文献及主流软件进行过对比）
 
 ---
 
